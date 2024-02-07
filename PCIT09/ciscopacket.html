@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<style>
+     *{
+        padding: 0px;
+        margin: 0px;
+    }
+    nav{
+        background-color: blueviolet;
+        height: 50px;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 5px;
+    }
+    ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+    .active a{
+        background-color: #fff;
+        color: black;
+}
+.container{
+    text-align: center;
+}
+</style>
+<body>
+    <nav>
+        
+        <div class="main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skitchup.html">SketchUp</a></li>
+                <li class="active"><a href="ciscopacket.html">Cisco Pocket Tracer</a></li>
+    </ul>
+    </div>
+    </nav>
+           
+    <div class="container">
+
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/lab 4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">LABORATORY 4</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lab3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">LABORATORY 3</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lab2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">LABORATORY 2</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/Lab 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">LABORATORY 1</h3>
+                </div><br><br><br>
+                <div class="col">
+                    <div class="card">
+                      <img src="image/Deabs Office.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h3 class="card-title">DEANS OFFICE</h3>
+                      </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
